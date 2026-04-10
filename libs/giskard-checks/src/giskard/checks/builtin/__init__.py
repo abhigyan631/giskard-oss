@@ -13,6 +13,9 @@ from .comparison import (
     NotEquals,
 )
 
+# Import contains checks
+from .contains_matching import ContainsAll, ContainsAny
+
 # Import other builtin checks (staying in builtin)
 from .fn import FnCheck, from_fn
 from .semantic_similarity import SemanticSimilarity
@@ -23,6 +26,8 @@ __all__ = [
     "FnCheck",
     "StringMatching",
     "RegexMatching",
+    "ContainsAny",
+    "ContainsAll",
     "Equals",
     "NotEquals",
     "LesserThan",

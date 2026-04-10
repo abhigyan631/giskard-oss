@@ -5,6 +5,8 @@ from pathlib import Path
 
 from giskard.agents import add_prompts_path
 
+
+
 from . import builtin, judges
 from .builtin import (
     Equals,
@@ -18,6 +20,8 @@ from .builtin import (
     SemanticSimilarity,
     StringMatching,
     from_fn,
+    ContainsAll,
+    ContainsAny,
 )
 from .core import (
     Check,
@@ -112,4 +116,6 @@ __all__ = [
     # Settings
     "set_default_generator",
     "get_default_generator",
+    "ContainsAll",
+    "ContainsAny",
 ]
