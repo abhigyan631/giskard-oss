@@ -21,6 +21,7 @@ from .builtin import (
     SemanticSimilarity,
     StringMatching,
     from_fn,
+    Sentiment,
 )
 from .core import (
     Check,
@@ -120,4 +121,5 @@ __all__ = [
     # Settings
     "set_default_generator",
     "get_default_generator",
+    "Sentiment",
 ]

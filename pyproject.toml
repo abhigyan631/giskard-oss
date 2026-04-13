@@ -24,6 +24,7 @@ dependencies = [
     "giskard-agents>=1.0.0a1",
     "giskard-checks>=1.0.0a1",
     "regex>=2026.1.15",
+    "textblob>=0.20.0",
 ]
 requires-python = ">=3.12"
 

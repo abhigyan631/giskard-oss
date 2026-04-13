@@ -25,6 +25,8 @@ from .composition import AllOf, AnyOf, Not
 from .fn import FnCheck, from_fn
 from .semantic_similarity import SemanticSimilarity
 from .text_matching import RegexMatching, StringMatching
+from .sentiment import Sentiment
+
 
 __all__ = [
     "AllOf",
@@ -47,4 +49,5 @@ __all__ = [
     "SemanticSimilarity",
     "BaseLLMCheck",
     "LLMCheckResult",
+    "Sentiment",
 ]
